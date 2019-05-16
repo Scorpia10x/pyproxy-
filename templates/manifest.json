@@ -1,0 +1,8 @@
+{ "name": "Xbrowser", 
+"short_name": "Xbrowser", 
+"theme_color": "#2196f3",
+"start_url": "?q=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8",
+"background_color": "#2196f3", 
+"display": "fullscreen", 
+"scope": "/" 
+}
