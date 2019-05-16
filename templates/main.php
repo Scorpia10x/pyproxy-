@@ -7,10 +7,15 @@ require(__DIR__ . "/../config.php");
 <head>
     <title><?php echo $config['website-name']; ?></title>
     <meta charset="utf-8">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="msapplication-starturl" content="/?q=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbQ">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="<?php echo $config["website-description"]; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="//www.iconarchive.com/download/i31446/studiomx/leomx/Web.ico"/>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link rel="manifest" href="manifest.json">
 </head>
 <body>
 <div class="container text-center" style="margin-top:3%;">
